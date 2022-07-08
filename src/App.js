@@ -22,7 +22,7 @@ function App() {
             <Header />
           </header>
           {upperimage ? (
-            <div className="body grid row-start-2 col-span-4 xl:col-span-3 xl:col-start-2 xl:row-start-2 items-center">
+            <div className="body grid row-start-2 col-span-4 xl:col-span-3 xl:col-start-2 xl:row-start-1 items-center">
               <img
                 src={ldlogo}
                 className="App-pulse mx-auto h-56 lg:h-60 2xl:h-75"
