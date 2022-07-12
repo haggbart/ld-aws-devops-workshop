@@ -11,7 +11,7 @@ let id = getUserId();
 
 (async () => {
   const LDProvider = await asyncWithLDProvider({
-    clientSideID: process.env.REACT_APP_LD_SDK_KEY,
+    clientSideID: process.env.REACT_APP_LD_CLIENT_ID,
     user: {
       key: id,
       custom: {
