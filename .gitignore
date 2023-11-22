@@ -27,3 +27,6 @@ yarn-error.log*
 *.tfvars
 .terraform
 .terraform.lock.hcl
+
+# IDEs and editors
+.idea
