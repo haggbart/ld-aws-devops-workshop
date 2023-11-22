@@ -10,9 +10,7 @@ import Release from "./components/release";
 
 function App() {
   const { upperimage, cardshow, prodHeader } = useFlags();
-
-  console.log("prodHeader: ", prodHeader);
-
+  console.log("upperimage", upperimage);
   return (
     <div className="App h-screen bg-ldls bg-cover bg-no-repeat">
       {prodHeader ? (
