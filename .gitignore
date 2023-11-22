@@ -28,5 +28,8 @@ yarn-error.log*
 .terraform
 .terraform.lock.hcl
 
+# local env files
+.env
+
 # IDEs and editors
 .idea
